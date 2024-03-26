@@ -390,7 +390,7 @@ $tracker-default-text: $white !default;
 
 $tracker-default-colors-map: (
   1: (
-    background: $red,
+    background: opacify($red, 0.7),
     color: $white,
   ),
   2: (
@@ -856,3 +856,4 @@ $agile-issue-card-color-map: map-merge(
   $agile-issue-card-default-color-map,
   $agile-issue-card-custom-color-map
 );
+
